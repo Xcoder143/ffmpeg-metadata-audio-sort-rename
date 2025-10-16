@@ -63,18 +63,15 @@ declare -a preferred_langs=("eng" "hin" "tam" "tel")
 ➡ English audio becomes default if available.
 
 ### 🏷️ Supported Language Codes
-
----
-
-## | Code | Language |
-   | ---- | -------- |
-   | tel  | Telugu   |
-   | tam  | Tamil    |
-   | hin  | Hindi    |
-   | eng  | English  |
-   | kor  | Korean   |
-   | jpn  | Japanese |
-   | kan  | Kannada  |
+| Code | Language |
+| ---- | -------- |
+| tel  | Telugu   |
+| tam  | Tamil    |
+| hin  | Hindi    |
+| eng  | English  |
+| kor  | Korean   |
+| jpn  | Japanese |
+| kan  | Kannada  |
 
 
 You can add or remove entries as needed.
