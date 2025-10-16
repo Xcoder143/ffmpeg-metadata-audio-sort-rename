@@ -49,7 +49,7 @@ declare -a preferred_langs=("tel" "tam" "hin" "kor" "eng" "jpn" "kan")
 ---
 
 ### Example 1 – South Indian Preference
-declare -a preferred_langs=("tam" "tel" "hin" "eng")
+declare -a preferred_langs=("tel" "tam" "hin" "kor" "eng" "jpn" "kan")
 
 
 ➡ Tamil first, Telugu second, Hindi third, English last.
@@ -66,14 +66,16 @@ declare -a preferred_langs=("eng" "hin" "tam" "tel")
 
 ---
 
-## Code	Language
-tel	Telugu
-tam	Tamil
-hin	Hindi
-eng	English
-kor	Korean
-jpn	Japanese
-kan	Kannada
+## | Code | Language |
+   | ---- | -------- |
+   | tel  | Telugu   |
+   | tam  | Tamil    |
+   | hin  | Hindi    |
+   | eng  | English  |
+   | kor  | Korean   |
+   | jpn  | Japanese |
+   | kan  | Kannada  |
+
 
 You can add or remove entries as needed.
 
@@ -86,12 +88,14 @@ Processed/Squid Game/Season_01/
 ---
 
 ### 🧾 Metadata Example
-Tag	Example Value
-title	Squid Game - S01E01 - change me
-network	change me
-artist	change me
-comment	Visit change me ➜ change me
-description	Watch and Download Episodes at change me
+| Tag         | Example Value                            |
+| ----------- | ---------------------------------------- |
+| title       | Squid Game - S01E01 - change me          |
+| network     | change me                                |
+| artist      | change me                                |
+| comment     | Visit change me ➜ change me             |
+| description | Watch and Download Episodes at change me |
+
 
 ---
 
@@ -102,5 +106,8 @@ Files without season/episode info will still be auto-numbered (01, 02, etc).
 Unavailable languages are skipped automatically.
 
 Subtitle detection adds “- Esub” in the filename.
+
+brand_name="change me"
+brand_link="change me"
 
 ---
